@@ -5,7 +5,7 @@ import LogIn from '../scenes/LogIn/conrainer'
 import Dashboard from '../scenes/Dashboard/conrainer'
 
 function App({
-  isLoggedIn,
+  isLoggedIn = true,
 }) {
   return (
     <Switch>
